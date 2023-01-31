@@ -1,0 +1,123 @@
+/* RESETS */
+* {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+}
+/* COMMON STYLING */
+.heading-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    text-align: center;
+    color: #172B4D;
+}
+.description-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #172B4D;
+}
+body {
+
+}
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TOP NAVIGATION SECTION*/
+#top-navigation {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+#navigation-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: relative;
+    top: 16px;
+}
+.navigation-item {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    width: 67px;
+}
+.navigation-item-text {
+    width: 63px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #344563;        
+}
+/* Headline section */
+#headline {
+    width: 63.9%;
+    height: auto;
+    padding: 160px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.headline-heading {
+    width: 100%;
+}
+#color-this{
+    color: green;
+    letter-spacing: 3px;
+}
+#color-this::before {
+    content: "\a";
+    white-space: pre;
+}
+.headline-description {
+    letter-spacing: .05em;
+}
+#headline-social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media {
+    display: flex;
+    gap: 12px;
+}
+.bottom-icon-container {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DFE1E6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headline-to-bottom-icon {
+    height: 114px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-icon-container:hover{
+    background-color: lightgreen;
+}
