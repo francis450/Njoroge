@@ -246,3 +246,49 @@ body {
     line-height: 24px;
     color: #FFFFFF;
 }
+/* ABOUT ME SECTION */
+#about {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 48px;
+}
+#about-heading {
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+#about-title {
+    width: 49%;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+}
+.about-description {
+    width: 100%;
+    height: 96px;
+    color: #42526E;
+}
+#about-resume-button {
+    width: 17%;
+    height: 48px;
+    background: #36B37F;
+    border-radius: 4px;
+}
+#about-resume-button-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
