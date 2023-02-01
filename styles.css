@@ -292,3 +292,137 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+#skill-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    gap: 24px;
+}
+.skill-card {
+    width: 31%;
+    height: 352px;
+    background-color: #EBF0EE;
+    display: flex;
+    flex-direction: column  ;
+}
+.skill-card-icon {
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.skill-card-icon-container {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 100%;
+}
+.skill-card-content {
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    top: 30%;
+    
+}
+.skill-card-content {
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    bottom: 20px;   
+}
+.skill-card-title {
+    width: 100%;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+.skill-card-tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.skill-card-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.skill-card-tech-tag {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 40px;
+    justify-content: center;
+}
+.skill-card-tech-tag-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #36B37E;    
+}
+.ljavascript {
+    width: 89px;
+}
+.lruby {
+    width: 55px;
+}
+.lhtml {
+    width: 53px;
+}
+.lcss {
+    width: 50px;
+}
+.bootstrap {
+    width: 84px;
+}
+.rails {
+    width: 103px;
+}
+.rspec {
+    width: 63px;
+}
+.capybara {
+    width: 83px;
+}
+.selenium {
+    width: 81px;
+}
+.codekit {
+    width: 72px;
+}
+.github {
+    width: 67px;
+}
+.codepen {
+    width: 79PX;
+}
+.gitlab {
+    width: 61px;
+}
+.terminal {
+    width: 77px;
+}
