@@ -1,3 +1,4 @@
+@media screen and (min-width: 768px) {
 /* RESETS */
 * {
     margin: 0%;
@@ -5,6 +6,9 @@
     height: auto;
     list-style: none;
     box-sizing: border-box;
+}
+button {
+    border: none;
 }
 /* COMMON STYLING */
 .heading-text{
@@ -517,4 +521,6 @@ body {
 .bottom-left-cylinder {
     left: 0%;
     top: 0%;
+}
+
 }
