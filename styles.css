@@ -77,7 +77,7 @@ body {
 }
 /* Headline section */
 #headline {
-    width: 63.9%;
+    /* width: 63.9%; */
     height: auto;
     padding: 160px 0px;
     display: flex;
@@ -139,7 +139,7 @@ body {
     gap: 48px;
 }
 #works-title {
-    width: 38%;
+    width: 100%;
     height: 48px;
     display: flex;
     flex-direction: column;
@@ -156,13 +156,13 @@ body {
 }
 .work-cards-row {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 24px;
     width: 98%; 
 }
 .card {
-    width: 30%;
     height: 474px;
     display: flex;
     flex-direction: column-reverse;
@@ -170,6 +170,9 @@ body {
     background-image: url('img/Works/Card1.svg');
     border: 1px solid #D0D9D4;
     border-radius: 8px;    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 .card-content {
     width: 100%;
@@ -269,7 +272,6 @@ body {
 }
 #about-title {
     width: 49%;
-    height: 48px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -279,11 +281,11 @@ body {
 }
 .about-description {
     width: 100%;
-    height: 96px;
     color: #42526E;
 }
 #about-resume-button {
-    width: 17%;
+    /* width: 17%; */
+    padding: 0 10px;
     height: 48px;
     background: #36B37F;
     border-radius: 4px;
@@ -300,14 +302,14 @@ body {
 #skill-cards {
     width: 100%;
     display: flex;
-    flex-direction: row ;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 4px 8px;
     gap: 24px;
 }
 .skill-card {
-    width: 31%;
+    width: 100%;
     height: 352px;
     background-color: #EBF0EE;
     display: flex;
@@ -435,14 +437,15 @@ body {
     width: 77px;
 }
 #form {
-    width: 81%;
+    width: 100%;
     display: flex;
-    align-items: flex-start;
-    padding: 80px 0px;
+    align-items: center;
+    flex-direction: column;
+    padding: 64px 24px;
     gap: 24px;
 }
 #form-text {
-    width: 39%;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     padding: 80px 0px;
@@ -456,7 +459,7 @@ body {
     color: #172B4D;
 }
 #form-content {
-    width: 58%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -475,10 +478,10 @@ body {
     height: 114px;
 }
 .form-submit-button {
-    width: 19%;
     height: 48px;
     background: #36B37F;
     border-radius: 4px;    
+    padding: 0 5px;
 }
 .form-submit-button-text {
     font-family: 'Inter';
@@ -523,5 +526,39 @@ body {
     left: 0%;
     top: 0%;
 }
-
+}
+@media screen and (min-width: 768px) {
+    #headline {
+        height: 64%;
+    }
+    .work-cards-row {
+        flex-direction: row;
+      }
+      #skill-cards {
+        flex-direction: row;
+      }
+      #form {
+        align-items: flex-start;
+        flex-direction: row;
+        width: 81%;
+        padding: 80px 0px;
+      }
+      #form-text {
+        width: 39%;
+        padding: 80px 0px;
+      }
+      #form-content {
+        width: 58%;
+      }
+      .form-submit-button {
+        width: 19%;
+      }
+      #works-title {
+        width: 38%;
+      }
+      .card {
+        width: 30%;
+        background-repeat: no-repeat;
+        background-position-x: center   
+      }
 }
