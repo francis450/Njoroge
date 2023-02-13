@@ -1,11 +1,18 @@
 <a name="readme-top"></a>
 
 <div align="center">
+<<<<<<< HEAD
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Francis' Portfolio Project</b></h3>
+=======
+  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <br/>
+
+  <h3><b>Portfolio Project</b></h3>
+>>>>>>> desktop-version
 
 </div>
 
@@ -35,8 +42,13 @@
 
 # 📖 Portfolio Project <a name="about-project"></a>
 
+<<<<<<< HEAD
 **My portfolio project** is a website dedicated to summarizing and displaying my profile as a software developer. 
 It is also plays a crucial role on showcasing my abilties as a web designer.
+=======
+**My portfolio project** is a website dedicated to summarizing my profile as a software developer. 
+It is also plays a crucial role on showcasing my abilties as a web developer.
+>>>>>>> desktop-version
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,7 +78,11 @@ It is also plays a crucial role on showcasing my abilties as a web designer.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+<<<<<<< HEAD
 - [Live Demo Link](https://francis450.github.io/njoroge-Portfolio-Website/)
+=======
+- [Live Demo Link](https://francis450.github.io/Njoroge)
+>>>>>>> desktop-version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,15 +97,22 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
   -Basic understanding of HTML5 and CSS3.
   -Git client installed
+<<<<<<< HEAD
   -Live Server
   -Visual Studio Code
+=======
+>>>>>>> desktop-version
   -Node Package Modules
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+<<<<<<< HEAD
 `git clone https://github.com/francis450/Njoroge-Portfolio-Website`
+=======
+`git clone https://github.com/francis450/Mobile-First-Portfolio-Sneak-Peek`
+>>>>>>> desktop-version
 
 
 ### Install
@@ -97,14 +120,22 @@ Clone this repository to your desired folder:
 Install this project with:
   `npm init`
   `npm install`
+<<<<<<< HEAD
   
+=======
+>>>>>>> desktop-version
 
 
 ### Usage
 
 To run the project, execute the following command:
 
+<<<<<<< HEAD
 `Click Go Live at the bottom left section of the VSCode`
+=======
+`npm start`
+
+>>>>>>> desktop-version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,14 +173,22 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
+<<<<<<< HEAD
 If you like this project, please go and give this repository a star and follow the author.
+=======
+If you like this project, please go and give this repository a star.
+>>>>>>> desktop-version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+<<<<<<< HEAD
 I would like to thank Microverse and the entire team of code reviewers for your good work. 
+=======
+I would like to thank Microverse and the entire team of code reviewers, thank you for your service. 
+>>>>>>> desktop-version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
