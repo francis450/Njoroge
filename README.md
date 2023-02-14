@@ -55,6 +55,7 @@ It is also plays a crucial role on showcasing my abilties as a web developer.
 <summary>Database</summary>
   
 </details>
+
 ## Key Features <a name="key-features"></a>
 
 - **Header/Navbar(Provides an easy way to browse though the site)**
@@ -86,13 +87,12 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/francis450/Mobile-First-Portfolio-Sneak-Peek`
+`git clone https://github.com/francis450/Njoroge`
 
 
 ### Install
 
 Install this project with:
-  `npm init`
   `npm install`
 
 
@@ -100,7 +100,7 @@ Install this project with:
 
 To run the project, execute the following command:
 
-`npm start`
+- Click the  `Go Live` button at the bottom left part of Visual Studio Code.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,9 +121,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Contact infomation section**
-- [ ] **Footer**
-- [ ] **Desktop Version**
+-  **Contact infomation section**
+-  **Footer**
+-  **Desktop Version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
