@@ -145,7 +145,12 @@
 
   .headline-heading {
     width: 100%;
-    font-size: 300%;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
   }
 
   #color-this {
@@ -159,8 +164,14 @@
   }
 
   .headline-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172B4D;
     justify-self: center;
-    letter-spacing: 0.05em;
   }
 
   #headline-social-media {
