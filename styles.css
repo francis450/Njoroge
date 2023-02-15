@@ -13,7 +13,7 @@
   }
 
   .heading-text {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 700;
     font-size: clamp(40px, 48px);
@@ -24,7 +24,7 @@
   }
 
   .description-text {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -74,7 +74,7 @@
   .navigation-item-text {
     width: 63px;
     height: 20px;
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -127,11 +127,11 @@
   }
 
   #toolbar-menu-union-icon::before {
-    transform: translate(0px, 10px);
+    transform: translate(0, 10px);
   }
 
   #toolbar-menu-union-icon::after {
-    transform: translate(0px, -10px);
+    transform: translate(0, -10px);
   }
 
   /* Headline section */
@@ -256,14 +256,14 @@
     align-items: center;
     padding: 16px;
     gap: 16px;
-    background-color: #FFF;
+    background-color: #fff;
     border-top: none;
   }
 
   .card-title {
     width: 100%;
     height: 57px;
-    font-family: "poppins sans-serif";
+    font-family: "poppins Serif";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -306,7 +306,7 @@
   }
 
   .card-tag-text {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -331,12 +331,12 @@
   }
 
   .card-button-text {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 500;
     /* font-size: 17px; */
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
   }
 
   /* ABOUT ME SECTION */
@@ -359,7 +359,7 @@
 
   #about-title {
     width: 49%;
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -380,13 +380,13 @@
   }
 
   #about-resume-button-text {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #fff;
   }
 
   #skill-cards {
@@ -423,11 +423,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 100%;
   }
-  
+
   .skill-card-content {
     width: 91%;
     display: flex;
@@ -441,7 +441,7 @@
   .skill-card-title {
     width: 100%;
     height: 32px;
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -467,14 +467,14 @@
   .skill-card-tech-tag {
     display: flex;
     align-items: center;
-    background: #ffffff;
+    background: #fff;
     border-radius: 8px;
     height: 40px;
     justify-content: center;
   }
 
   .skill-card-tech-tag-text {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -556,7 +556,7 @@
   }
 
   #form-text-item {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -595,13 +595,13 @@
   }
 
   .form-submit-button-text {
-    font-family: "inter sans-serif";
+    font-family: "inter Serif";
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #fff;
   }
 
   /* BOTTOM NAVIGATION */
