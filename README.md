@@ -108,7 +108,7 @@ To run the project, execute the following command:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Njoroge Francis**
 
 - GitHub: [@francis450](https://github.com/francis450)
 - Twitter: [@nkamandefrancis](https://twitter.com/nkamandefrancis)
@@ -166,6 +166,5 @@ I would like to thank Microverse and the entire team of code reviewers, thank yo
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
