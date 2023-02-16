@@ -55,7 +55,7 @@
     left: 10%;
     top: 20px;
   }
-  
+
   #logo-text {
     font-family: 'Inter', serif;
     font-style: normal;
@@ -242,7 +242,7 @@
     font-weight: 700;
     font-size: calc(16px + 6.4vw);
     line-height: 52px;
-    color: #172B4d;
+    color: #172b4d;
   }
 
   #work-cards {
