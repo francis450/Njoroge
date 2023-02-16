@@ -12,27 +12,6 @@
     border: none;
   }
 
-  .heading-text {
-    font-family: "inter", serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: clamp(40px, 48px);
-    line-height: 52px;
-    align-items: center;
-    text-align: center;
-    color: #172b4d;
-  }
-
-  .description-text {
-    font-family: "inter", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    color: #172b4d;
-  }
-
   #main-container {
     display: flex;
     flex-direction: column;
@@ -240,7 +219,7 @@
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
-    font-size: calc(16px + 6.4vw);
+    font-size: 40px;
     line-height: 52px;
     color: #172b4d;
   }
@@ -292,7 +271,7 @@
     font-family: "poppins", serif;
     font-style: normal;
     font-weight: 600;
-    font-size: calc(18px + 2.133vw);
+    font-size: 24px;
     line-height: 32px;
     text-align: center;
     color: #172b4d;
@@ -335,7 +314,7 @@
     font-family: "inter", serif;
     font-style: normal;
     font-weight: 600;
-    font-size: calc(9px + 0.433vw);
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #172b4d;
@@ -363,7 +342,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    font-size: calc(16px + 0.27vw);
+    font-size: 17px;
     color: #fff;
   }
 
@@ -400,7 +379,7 @@
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: calc(16px + 1.06vw);
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
     color: #42526e;
@@ -587,13 +566,6 @@
     display: flex;
     align-items: flex-start;
     padding: 80px 0;
-    font-family: "inter", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: calc(16px + 6.4vw);
-    line-height: 32px;
-    text-align: center;
-    color: #172b4d;
   }
 
   #form-text-item {
@@ -634,7 +606,6 @@
 
   .form-submit-button {
     height: 48px;
-    width: 19%;
     background: #36b37f;
     border-radius: 4px;
     padding: 0 5px;
@@ -668,8 +639,6 @@
 
   .bottom-horizontal-line {
     display: none;
-    border: 0.5px solid #000;
-    width: 100%;
   }
 
   #nav-headline-background {
@@ -704,6 +673,10 @@
 
   #headline {
     height: 64%;
+  }
+
+  #first-form-row {
+    display: flex;
   }
 
   #toolbar-menu-button {
@@ -755,5 +728,15 @@
     width: 30%;
     background-repeat: no-repeat;
     background-position-x: center;
+  }
+
+  .bottom-horizontal-line {
+    display: block;
+    border: 1px solid #000;
+    width: 100%;
+  }
+
+  .bottom-email {
+    display: none;
   }
 }
