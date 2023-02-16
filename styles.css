@@ -364,8 +364,25 @@
     gap: 24px;
   }
 
+  .about-me-mobile1 {
+    position: absolute;
+    right: 0;
+  }
+
+  .about-me-mobile2 {
+    position: absolute;
+    left: 0;
+    top: 4550px;
+  }
+
+  .bottom-most-mobile-background {
+    position: absolute;
+    right: 0;
+    top: 6680px
+  }
+
   #about-title {
-    width: 49%;
+    width: 100%;
     font-family: "inter", serif;
     font-style: normal;
     font-weight: 700;
@@ -659,6 +676,14 @@
   .bottom-left-cylinder {
     left: 0%;
     top: 0%;
+  }
+
+  .about-me-mobile-background1 {
+    position: absolute;
+  }
+
+  .about-me-mobile-background2 {
+    position: absolute;
   }
 }
 
