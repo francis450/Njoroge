@@ -28,7 +28,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 
@@ -132,7 +132,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/francis450/Njoroge-Portfolio-Website/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +151,7 @@ I would like to thank Microverse and the entire team of code reviewers, thank yo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
 
 - **What errors should I look out for?**
