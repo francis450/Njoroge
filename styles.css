@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 375px) {
   /* RESETS */
   * {
     margin: 0%;
@@ -55,6 +55,16 @@
     left: 10%;
     top: 20px;
   }
+  #logo-text {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #28352F;
+  }
 
   #navigation-list {
     display: none;
@@ -89,7 +99,7 @@
   #toolbar-menu-button {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     position: absolute;
     width: 40px;
     height: 40px;
@@ -115,7 +125,7 @@
   #toolbar-menu-union-icon,
   #toolbar-menu-union-icon::before,
   #toolbar-menu-union-icon::after {
-    background-color: #000;
+    background-color: #28352f;
     position: absolute;
     width: 100%;
     height: 2px;
@@ -127,11 +137,11 @@
   }
 
   #toolbar-menu-union-icon::before {
-    transform: translate(0, 10px);
+    transform: translate(0, 8px);
   }
 
   #toolbar-menu-union-icon::after {
-    transform: translate(0, -10px);
+    transform: translate(0, -8px);
   }
 
   /* Headline section */
@@ -140,6 +150,7 @@
     padding: 160px 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 24px;
   }
 
@@ -148,7 +159,7 @@
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 260%;
     line-height: 52px;
     text-align: center;
   }
@@ -164,6 +175,7 @@
   }
 
   .headline-description {
+    width: 87%;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -171,7 +183,6 @@
     line-height: 28px;
     text-align: center;
     color: #172b4d;
-    justify-self: center;
   }
 
   #headline-social-media {
@@ -219,15 +230,18 @@
   }
 
   #works-title {
-    width: 100%;
-    height: 48px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .works-title-text {
-    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(16px + 6vw);
+    line-height: 52px;
+    color: #172B4D;
   }
 
   #work-cards {
@@ -277,7 +291,7 @@
     font-family: "poppins", serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: calc(18px + 2.133vw);
     line-height: 32px;
     text-align: center;
     color: #172b4d;
@@ -320,7 +334,7 @@
     font-family: "inter", serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: calc(9px + 0.433vw);
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #172b4d;
@@ -336,7 +350,9 @@
 
   .card-button {
     width: 36%;
-    height: 48px;
+    aspect-ratio: 2.54;
+    max-height: 48px;
+    padding: 0 5px;
     background: #36b37f;
     border-radius: 4px;
   }
@@ -346,6 +362,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    font-size: calc(12px + 1.vw);
     color: #fff;
   }
 
@@ -379,7 +396,13 @@
 
   .about-description {
     width: 100%;
-    color: #42526e;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(16px + 1.06vw);
+    line-height: 32px;
+    text-align: center;
+    color: #42526E;
   }
 
   #about-resume-button {
@@ -445,7 +468,7 @@
     align-items: center;
     gap: 24px;
     position: relative;
-    bottom: 20px;
+    bottom: -100px;
   }
 
   .skill-card-title {
@@ -563,6 +586,13 @@
     display: flex;
     align-items: flex-start;
     padding: 80px 0;
+    font-family: "inter", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(16px + 6.4vw);
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
   }
 
   #form-text-item {
@@ -579,7 +609,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    align-items: flex-start;
+    align-items: centre;
   }
 
   .form-row {
@@ -587,6 +617,9 @@
     height: 48px;
     display: flex;
     gap: 24px;
+  }
+  #first-form-row {
+    display: none;
   }
 
   .form-row-column {
@@ -599,9 +632,15 @@
 
   .form-submit-button {
     height: 48px;
+    width: 40%;
     background: #36b37f;
     border-radius: 4px;
     padding: 0 5px;
+  }
+
+  .button-div {
+    display: flex;
+    justify-content: center;
   }
 
   .form-submit-button-text {
@@ -617,7 +656,6 @@
   /* BOTTOM NAVIGATION */
   #bottom-navigation {
     width: 100%;
-    height: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -638,6 +676,7 @@
     background-image: url("img/healine-background/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 220% 100%;
   }
 
   .image {
@@ -648,6 +687,10 @@
     left: 0%;
     top: 0%;
   }
+  
+  .bottom-horizontal-line {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -655,6 +698,9 @@
     display: none;
   }
 
+  #ignoreindesktop {
+    display: none;
+  }
   #headline {
     height: 64%;
   }
@@ -669,6 +715,10 @@
 
   #skill-cards {
     flex-direction: row;
+  }
+
+  #nav-headline-background {
+    background-size: 100% 100%;
   }
 
   #form {
@@ -689,6 +739,7 @@
 
   #form-content {
     width: 58%;
+    align-items: flex-start;
   }
 
   .form-submit-button {
