@@ -634,7 +634,7 @@
 
   .form-submit-button {
     height: 48px;
-    width: 40%;
+    width: 19%;
     background: #36b37f;
     border-radius: 4px;
     padding: 0 5px;
@@ -649,6 +649,7 @@
     font-family: "inter", serif;
     font-style: normal;
     font-weight: 500;
+    white-space: nowrap;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -743,7 +744,7 @@
   }
 
   .form-submit-button {
-    width: 19%;
+    width: 100%;
   }
 
   #works-title {
