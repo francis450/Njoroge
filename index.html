@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
     <title>Francis</title>
 </head>
 <body>
@@ -274,14 +273,14 @@
                 <p id="form-text-item">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             </div>
             <!-- form -->
-            <form action="" id="form-content">
+            <form action="https://formspree.io/f/xyyakzgb" method="POST" id="form-content">
                 <div class="form-row" id="first-form-row">
-                    <input type="text" required name="first-name" placeholder="First Name" class="form-row-column">
-                    <input type="text" required name="last-name" placeholder="Last Name" class="form-row-column">
+                    <input type="text" name="FirstName" maxlength="30" required name="first-name" placeholder="First Name" class="form-row-column">
+                    <input type="text" name="SecondName" maxlength="30" required name="last-name" placeholder="Last Name" class="form-row-column">
                 </div>
-                <input type="text" required name="full name" placeholder="Full Name" class="form-row" id="ignoreindesktop">
+                <input type="text" required name="FullName" placeholder="Full Name" class="form-row" id="ignoreindesktop">
                 <input type="email" required name="email" placeholder="Email Address" id="" class="form-row">
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Typing..." class="form-row textareas"></textarea>
+                <textarea name="comment" required maxlength="500" id="" cols="30" rows="10" placeholder="Typing..." class="form-row textareas"></textarea>
                 <div class="button-div">
                     <button type="submit" class="form-submit-button"><p class="form-submit-button-text">Get in touch </p></button>
                 </div>
@@ -306,8 +305,6 @@
                 </a>
             </div>
         </section>
-        <!-- <img src="img/scattered-backgrounds/about-me-mobile-background1.svg" alt="" class="about-me-mobile-background1">
-        <img src="img/scattered-backgrounds/about-me-mobile-background2.svg" alt="" class="about-me-mobile-background2"> -->
     </main>
 </body>
 </html>
