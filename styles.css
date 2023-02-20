@@ -636,6 +636,10 @@
     padding: 0 5px;
   }
 
+  .form-submit-button:hover {
+    background: #1b593f;
+  }
+
   .button-div {
     display: flex;
     justify-content: center;
