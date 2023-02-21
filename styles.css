@@ -792,7 +792,7 @@
   .bottom-most-mobile-background {
     display: none;
   }
-  
+
   .desktop-bottom-left-background {
     display: flex;
     position: absolute;
@@ -825,6 +825,6 @@
     display: flex;
     position: absolute;
     right: 0;
-    top: 1940px;
+    top: 1941px;
   }
 }
