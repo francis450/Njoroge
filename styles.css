@@ -693,6 +693,10 @@
   .about-me-mobile-background2 {
     position: absolute;
   }
+
+  .mobile-dont {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -754,7 +758,7 @@
   }
 
   #works-title {
-    width: 38%;
+    width: 100%;
   }
 
   .card {
@@ -772,4 +776,17 @@
   .bottom-email {
     display: none;
   }
+
+  .about-me-mobile1 {
+    display: none;
+  }
+
+  .about-me-mobile2 {
+    display: none;
+  }
+
+  .bottom-most-mobile-background {
+    display: none;
+  }
+  
 }
