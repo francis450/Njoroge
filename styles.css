@@ -757,6 +757,10 @@
     width: 100%;
   }
 
+  #about-heading {
+    width: 79%;
+  }
+
   #works-title {
     width: 100%;
   }
