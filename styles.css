@@ -736,7 +736,7 @@
     align-items: flex-start;
     flex-direction: row;
     width: 81%;
-    padding: 80px 0;
+    padding: 80px 0 200px 0;
   }
 
   #form-text {
@@ -793,4 +793,38 @@
     display: none;
   }
   
+  .desktop-bottom-left-background {
+    display: flex;
+    position: absolute;
+    bottom: -2700px;
+    left: 350px;
+  }
+
+  .desktop-bottom-leftmost-background {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: -2750px;
+  }
+
+  .desktop-bottom-right-background {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: -2700px;
+  }
+
+  .desktop-about-left-background {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 2140px;
+  }
+
+  .desktop-about-right-background {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 1940px;
+  }
 }
