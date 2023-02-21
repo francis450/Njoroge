@@ -275,11 +275,11 @@
             <!-- form -->
             <form action="https://formspree.io/f/xyyakzgb" method="POST" id="form-content">
                 <div class="form-row" id="first-form-row">
-                    <input type="text" name="FirstName" max-length="30" name="first-name" placeholder="First Name" class="form-row-column">
-                    <input type="text" name="SecondName" max-length="30" name="last-name" placeholder="Last Name" class="form-row-column">
+                    <input type="text" name="FirstName" max-length="30" name="first-name" placeholder="First Name" class="form-row-column" required>
+                    <input type="text" name="SecondName" max-length="30" name="last-name" placeholder="Last Name" class="form-row-column" required>
                 </div>
-                <input type="text" name="FullName" max-length="30" placeholder="Full Name" class="form-row" id="ignoreindesktop">
-                <input type="email" name="email" max-length="30" placeholder="Email Address" id="" class="form-row">
+                <input type="text" name="FullName" max-length="30" placeholder="Full Name" class="form-row" id="ignoreindesktop" required>
+                <input type="email" name="email" max-length="30" placeholder="Email Address" id="" class="form-row" required>
                 <textarea name="comment" id="" cols="30" rows="10" max-length="500" placeholder="Typing..." class="form-row textareas"></textarea>
                 <div class="button-div">
                     <button type="submit" class="form-submit-button green-button"><p class="form-submit-button-text">Get in touch </p></button>
