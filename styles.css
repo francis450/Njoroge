@@ -701,7 +701,6 @@
   .mobile-dont {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -715,10 +714,6 @@
 
   #headline {
     height: 64%;
-  }
-
-  #first-form-row {
-    display: flex;
   }
 
   #toolbar-menu-button {
@@ -746,6 +741,7 @@
 
   #form-text {
     width: 39%;
+    padding-top: 50px;
   }
 
   #navigation-list {
@@ -807,7 +803,7 @@
   .desktop-bottom-left-background {
     display: flex;
     position: absolute;
-    bottom: -2650px;
+    bottom: -2700px;
     left: 350px;
   }
 
@@ -815,14 +811,14 @@
     display: flex;
     position: absolute;
     left: 0;
-    bottom: -2680px;
+    bottom: -2700px;
   }
 
   .desktop-bottom-right-background {
     display: flex;
     position: absolute;
     right: 0;
-    bottom: -2650px;
+    bottom: -2700px;
   }
 
   .desktop-about-left-background {
