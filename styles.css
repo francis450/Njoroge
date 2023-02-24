@@ -30,7 +30,15 @@
     align-items: center;
     position: fixed;
     background: none;
+    transition: all 0.5s ease-out;
   }
+
+
+  a:hover,
+  a:focus {
+  color: red;
+  }
+  
 
   #logo {
     position: absolute;
