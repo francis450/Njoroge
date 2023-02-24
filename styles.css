@@ -852,4 +852,12 @@
     right: 0;
     top: 1941px;
   }
+
+  .form-row {
+    transition: all 0.5s ease-out;
+  }
+
+  .form-row:focus {
+    height: 60px;
+  }
 }
