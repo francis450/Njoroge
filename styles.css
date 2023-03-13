@@ -9,6 +9,7 @@
     height: auto;
     list-style: none;
     box-sizing: border-box;
+    border: none;
   }
 
   a {
@@ -142,7 +143,6 @@
       display: none;
     }
   }
-
 
   #main-container {
     width: 100%;
@@ -588,6 +588,15 @@
   .skill-card-title {
     width: 100%;
     height: 32px;
+    font-family: "inter", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .logo-text {
     font-family: "inter", serif;
     font-style: normal;
     font-weight: 600;
