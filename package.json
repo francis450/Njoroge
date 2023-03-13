@@ -23,6 +23,8 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chrome-launcher": "^0.15.1"
+  },
   "keywords": []
 }
