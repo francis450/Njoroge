@@ -1,8 +1,8 @@
 const menu = document.querySelector('.menu');
-const menu_list = menu.querySelectorAll('li');
+const menuList = menu.querySelectorAll('li');
 const checkbox = document.getElementById('menu-btn');
 
-menu_list.forEach(item => {
+menuList.forEach(item => {
     item.addEventListener('click', () => {
         checkbox.checked = false;
     });
