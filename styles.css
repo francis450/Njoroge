@@ -3,6 +3,10 @@
 
 @media screen and (min-width: 375px) {
   /* RESETS */
+  html {
+    scroll-behavior: smooth;
+  }
+
   * {
     margin: 0%;
     padding: 0%;
