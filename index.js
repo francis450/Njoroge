@@ -1,8 +1,7 @@
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuIcon = document.querySelector('.menu-icon');
-const menuItem = document.querySelectorAll('.menu-item')
-menuBtn.addEventListener('click', check);
+const menuItem = document.querySelectorAll('.menu-item');
 
 function controlChecked() {
   menu.style.maxHeight = '240px';
@@ -23,10 +22,12 @@ function check() {
   }
 }
 
-menuItem.forEach(element => {
-  element.addEventListener('click',removeChecked);
-});
+menuBtn.addEventListener('click', check);
 
 function removeChecked() {
   controlUnchecked();
 }
+
+menuItem.forEach((element) => {
+  element.addEventListener('click', removeChecked);
+});
