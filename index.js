@@ -2,8 +2,8 @@ const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuIcon = document.querySelector('.menu-icon');
 const menuItem = document.querySelectorAll('.menu-item');
-const naviconBefore = document.querySelector(".navicon-before");
-const naviconAfter = document.querySelector(".navicon-after");
+const naviconBefore = document.querySelector('.navicon-before');
+const naviconAfter = document.querySelector('.navicon-after');
 
 function controlChecked() {
   menu.style.maxHeight = '240px';
