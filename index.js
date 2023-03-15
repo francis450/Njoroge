@@ -1,9 +1,21 @@
 const menu = document.querySelector('.menu');
-const menuList = menu.querySelectorAll('li');
-const checkbox = document.getElementById('menu-btn');
+const menuIcon = document.querySelector('.menu-icon');
 
-menuList.forEach((item) => {
-  item.addEventListener('click', () => {
-    checkbox.checked = false;
-  });
+function controlChecked() {
+  menu.style.maxHeight = '240px';
+  menuIcon.querySelector('.navicon').style.background = 'transparent';
+}
+
+function controlUnchecked() {
+  menuBtn.checked = false;
+  menu.style.maxHeight = null;
+  menuIcon.querySelector('.navicon').style.background = null;
+}
+
+menuBtn.addEventListener('click', () => {
+  if (this.checked) {
+    controlChecked();
+  } else {
+    controlUnchecked();
+  }
 });
