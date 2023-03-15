@@ -14,11 +14,15 @@
             <header class="header">
                 <a href="" class="logo"><p class="logo-text">Welcome</p></a>
                 <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <label class="menu-icon" for="menu-btn">
+                    <span class="navicon-before"></span>
+                    <span class="navicon"></span>
+                    <span class="navicon-after"></span>
+                </label>
                 <ul class="menu">
-                  <li><a href="index.html">Portfolio</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#form">Contact</a></li>
+                  <li class="menu-item" onclick="removeChecked()"><a href="#works">Portfolio</a></li>
+                  <li class="menu-item" onclick="removeChecked()"><a href="#about">About</a></li>
+                  <li class="menu-item" onclick="removeChecked()"><a href="#form">Contact</a></li>
                 </ul>
             </header>
 
