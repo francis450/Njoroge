@@ -16,7 +16,7 @@ function showMenu() {
     menu.style.background = 'white';
     menu.style.width = '100vw';
     menu.style.height = '100vh';
-    logo.style.display = 'none'
+    logo.style.visibility = 'hidden';
     console.log('Done');
     state = true;
 }
@@ -26,7 +26,7 @@ function removeMenu() {
     centerLine.style.background = '#28352f';
     beforeLine.style.transform = 'translate(0,8px)';
     afterLine.style.transform = 'translate(0,-8px)';
-    logo.style.display = 'block';
+    logo.style.visibility = 'inherit'   ;
     state = false;
 }
 
@@ -39,8 +39,8 @@ hamburger.addEventListener('click', () => {
 });
 
 navItem.forEach((item) => {
-item.addEventListener('click', () => {
-    removeMenu()
-    state = false;
-});
+    item.addEventListener('click', () => {
+        removeMenu()
+        state = false;
+    });
 });
