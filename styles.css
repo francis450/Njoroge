@@ -51,26 +51,23 @@
 
   #navigation-list {
     display: none;
-    flex-direction: row;
-    gap: 16px;
-    position: relative;
-    top: 16px;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 3vw;
   }
 
   .navigation-item {
     list-style: none;
     display: flex;
-    justify-items: center;
-    width: 67px;
+    width: 100%;
+    height: 40px;
   }
 
   .navigation-item-text {
-    width: 63px;
-    height: 20px;
     font-family: "inter", serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -103,6 +100,7 @@
     top: 20px;
     left: 8px;
     border: none;
+    transition: all;
   }
 
   #toolbar-menu-union-icon,
@@ -713,6 +711,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .navigation-item {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    width: 67px;
+  }
   #logo {
     display: none;
   }
@@ -751,6 +755,10 @@
 
   #navigation-list {
     display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: relative;
+    top: 16px;
   }
 
   #form-content {
