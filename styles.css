@@ -38,6 +38,12 @@
     top: 20px;
   }
 
+  .error-message {
+    display: none;
+    color: red;
+    width: fit-content;
+  }
+
   #logo-text {
     font-family: 'Inter', serif;
     font-style: normal;
