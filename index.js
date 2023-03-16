@@ -40,6 +40,10 @@ const details = {
     },
 };
 
+function popup() {
+    
+}
+
 // Dynamically create the work section
 function createCard(cardN) {
     const card = document.createElement('div');
@@ -96,6 +100,8 @@ function createCard(cardN) {
     tag3.appendChild(cardTagText3);
     tag4.appendChild(cardTagText4);
 
+    cardButton.addEventListener('click', popup);
+
     return card;
 }
 
@@ -142,3 +148,4 @@ window.addEventListener('load',() => {
     works.appendChild(createWorksTitleContainer());
     works.append(createWorkCardsContainer());
 });
+
