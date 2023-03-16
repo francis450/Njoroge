@@ -3,36 +3,42 @@ const works = document.querySelector('#works');
 // create cards object
 const details = {
     card1 : {
+        id: 0,
         name:'Multi-Post Stories Gain+Glory',
         decription: 'lorem Ipsum',
         image: 'img/',
         technology:['ruby on rails','css','javascript','html']
     },
     card2 : {
+        id: 1,
         name:'Multi-Post Stories Gain+Glory',
         decription: 'lorem Ipsum',
         image: 'img/',
         technology:['ruby on rails','css','javascript','html']
     },
     card3 : {
+        id: 2,
         name:'Multi-Post Stories Gain+Glory',
         decription: 'lorem Ipsum',
         image: 'img/',
         technology:['ruby on rails','css','javascript','html']
     },
     card4 : {
+        id: 3,
         name:'Multi-Post Stories Gain+Glory',
         decription: 'lorem Ipsum',
         image: 'img/',
         technology:['ruby on rails','css','javascript','html']
     },
     card5 : {
+        id: 4,
         name:'Multi-Post Stories Gain+Glory',
         decription: 'lorem Ipsum',
         image: 'img/',
         technology:['ruby on rails','css','javascript','html']
     },
     card6 : {
+        id: 5,
         name:'Multi-Post Stories Gain+Glory',
         decription: 'lorem Ipsum',
         image: 'img/',
