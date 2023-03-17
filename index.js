@@ -5,43 +5,43 @@ const details = {
     card1 : {
         id: 0,
         name:'Multi-Post Stories Gain+Glory',
-        decription: 'lorem Ipsum',
-        image: 'img/',
+        decription: 'Aenean at lorem purus. Suspendisse vitae libero dui. Phasellus placerat posuere lacus, in auctor diam mollis ac. Duis congue tincidunt ante vel pretium. Suspendisse porttitor ipsum id dolor convallis varius. Donec faucibus neque nec ex rutrum mollis. Nulla sit amet efficitur augue, sit amet tristique ante. Nunc non condimentum dui. Aliquam mattis pharetra magna ut porttitor. Proin suscipit nunc eget massa pharetra, vitae rhoncus purus dictum. Suspendisse vel tellus hendrerit, lacinia ligula vitae, egestas metus. Nunc quis nisi ut metus accumsan rhoncus.',
+        image: 'url(\'img/cards-images/cardone.jpg\')',
         technology:['ruby on rails','css','javascript','html']
     },
     card2 : {
         id: 1,
         name:'Multi-Post Stories Gain+Glory',
-        decription: 'lorem Ipsum',
-        image: 'img/',
+        decription: 'Nunc lobortis augue in efficitur porttitor. Cras tincidunt sagittis dapibus. In at erat quis massa pellentesque ullamcorper vitae et lorem. Fusce nisi velit, elementum ut luctus nec, vulputate in tellus. Quisque pulvinar ac ipsum fringilla rhoncus. Nullam bibendum diam ligula, eu venenatis nisi euismod a. Sed tincidunt sit amet lectus eget efficitur.',
+        image: 'url(\'img/cards-images/cardtwo.jpg\')',
         technology:['ruby on rails','css','javascript','html']
     },
     card3 : {
         id: 2,
-        name:'Multi-Post Stories Gain+Glory',
-        decription: 'lorem Ipsum',
-        image: 'img/',
+        name:'Uber App',
+        decription: 'Vivamus mattis, arcu at vulputate pellentesque, ante ex gravida risus, et luctus dolor tortor vitae libero. Sed sollicitudin leo id eros vestibulum lacinia. Duis tincidunt, ligula id elementum commodo, nulla nibh fringilla justo, ac hendrerit turpis justo a arcu. Aenean euismod nibh at tellus tincidunt tristique. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac facilisis dui. ',
+        image: 'url(\'img/cards-images/cardthree.jpg\')',
         technology:['ruby on rails','css','javascript','html']
     },
     card4 : {
         id: 3,
         name:'Multi-Post Stories Gain+Glory',
         decription: 'lorem Ipsum',
-        image: 'img/',
+        image: 'url(\'img/cards-images/cardfour.jpg\')',
         technology:['ruby on rails','css','javascript','html']
     },
     card5 : {
         id: 4,
         name:'Multi-Post Stories Gain+Glory',
-        decription: 'lorem Ipsum',
-        image: 'img/',
+        decription: 'Etiam volutpat lacus non rhoncus porta. Etiam vulputate cursus libero, quis semper odio. Etiam interdum tortor ac orci sagittis, sit amet dictum arcu porta. Proin convallis dui lacus, vitae tincidunt magna finibus id. Sed velit quam, malesuada ut tristique sit amet, suscipit ut ex. In laoreet sed mauris id rhoncus. Pellentesque tempor elementum lorem, eu aliquam ex fringilla non. Fusce mollis commodo sem tempus fermentum.',
+        image: 'url(\'img/cards-images/cardfive.jpg\')',
         technology:['ruby on rails','css','javascript','html']
     },
     card6 : {
         id: 5,
         name:'Multi-Post Stories Gain+Glory',
-        decription: 'lorem Ipsum',
-        image: 'img/',
+        decription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in ligula dictum, volutpat ante id, consectetur leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel felis faucibus, gravida mi tincidunt, rhoncus risus. Aenean odio velit, mattis eu diam vel, tincidunt ornare mi. In fermentum metus quam, id dignissim libero accumsan in. Ut condimentum ultricies mollis. Aenean at ante ut magna posuere fringilla.',
+        image: 'url(\'img/cards-images/cardsix.jpg\')',
         technology:['ruby on rails','css','javascript','html']
     },
 };
@@ -89,6 +89,7 @@ function createCard(cardN) {
     tag2.textContent = cardN.technology[1];
     tag3.textContent = cardN.technology[2];
     tag4.textContent = cardN.technology[3];
+    card.style.backgroundImage = cardN.image;
     cardButtonText.textContent = 'See Project'
 
     card.appendChild(cardContent);
@@ -111,13 +112,13 @@ function createCard(cardN) {
     return card;
 }
 
-function createWorkCardsRow() {
+function createWorkCardsRow(one, two, three) {
     const workCardsRow = document.createElement('section');
     workCardsRow.setAttribute('class', 'work-cards-row');
 
-    workCardsRow.appendChild(createCard(details.card1));
-    workCardsRow.append(createCard(details.card2));
-    workCardsRow.append(createCard(details.card3));
+    workCardsRow.appendChild(createCard(one));
+    workCardsRow.append(createCard(two));
+    workCardsRow.append(createCard(three));
 
     return workCardsRow;
 }
@@ -125,8 +126,8 @@ function createWorkCardsRow() {
 function createWorkCardsContainer() {
     const workCards = document.createElement('div');
     workCards.setAttribute('id','work-cards');
-    workCards.appendChild(createWorkCardsRow());
-    workCards.append(createWorkCardsRow());
+    workCards.appendChild(createWorkCardsRow(details.card1,details.card2,details.card3));
+    workCards.append(createWorkCardsRow(details.card4,details.card5, details.card6));
 
     return workCards;
 }
