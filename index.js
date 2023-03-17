@@ -12,3 +12,13 @@ formInputs.forEach(input => {
   });
 });
 
+// Check if there is any data in local storage and pre-fill the input fields with that data
+if (localStorage.getItem('formData')) {
+  const storedFormData = JSON.parse(localStorage.getItem('formData'));
+  formInputs.forEach(input => {
+    if (storedFormData[input.name]) {
+      input.value = storedFormData[input.name];
+    }
+  });
+}
+
