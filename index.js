@@ -46,13 +46,52 @@ const details = {
     },
 };
 
-function popup() {
+function popup(cardN) {
     const container = document.createElement('section');
-    container.setAttribute('class','popup-container');
     const popupCard = document.createElement('div');
-    popupCard.setAttribute('class','popup-card');
     const closeButton = document.createElement('div');
+    const popupCardImage = document.createElement('img');
+    const titleContainer = document.createElement('section');
+    const popupDetailsContainer = document.createElement('div');
+    const popupDetailsText = document.createElement('p');
+    const popupToolsContainer = document.createElement('div');
+    const popupTitleText = document.createElement('h2');
+    const titleTextContainer = document.createElement('div');
+    const buttonsContainer = document.createElement('div');
+    const seeLiveButton = document.createElement('button');
+    const seeSourceButton = document.createElement('button');
+
+    container.setAttribute('class','popup-container');
+    popupCard.setAttribute('class','popup-card');   
     closeButton.setAttribute('class','close-button');
+    popupCardImage.setAttribute('class','popup-card-image');
+    popupCardImage.setAttributeNS('src','src', cardN.image);
+    titleContainer.setAttribute('class','popup-title-container');
+    popupDetailsContainer.setAttribute('class','popup-details-container');
+    popupDetailsText.setAttribute('class','popup-details-text');
+    popupToolsContainer.setAttribute('class','popup-tools-container');
+    titleTextContainer.setAttribute('class','title-text-container');
+    popupTitleText.setAttribute('class','popup-title-text');
+    buttonsContainer.setAttribute('class','popup-buttons-container');
+    seeLiveButton.setAttribute('class','popup-button');
+    seeSourceButton.setAttribute('class','popup-button');
+
+    container.appendChild(popupCard);
+    popupCard.append(closeButton);
+    popupCard.append(popupCardImage);
+    popupCard.append(titleContainer);
+    popupCard.append(popupToolsContainer);
+    popupCard.append(popupDetailsContainer);
+    popupDetailsContainer.appendChild(popupDetailsText);
+    titleContainer.appendChild(titleTextContainer);
+    titleTextContainer.appendChild(popupTitleText);
+    titleContainer.append(buttonsContainer);
+    buttonsContainer.appendChild(seeLiveButton);
+    buttonsContainer.append(seeSourceButton);
+
+    seeLiveButton.textContent = 'See Live';
+    seeSourceButton.textContent = 'See Source';
+    return container;
 }
 
 // Dynamically create the work section
