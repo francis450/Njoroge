@@ -8,6 +8,17 @@ const navItem = document.querySelectorAll('.navigation-item');
 var state = false;
 
 function showMenu() {
+    centerLine.style.background = 'transparent';
+    beforeLine.style.transform = 'rotate(45deg)';
+    afterLine.style.transform = 'rotate(-45deg)';
+    menu.style.paddingTop = '7vh'
+    menu.style.display = 'flex';
+    menu.style.background = 'white';
+    menu.style.width = '100vw';
+    menu.style.height = '100vh';
+    logo.style.visibility = 'hidden';
+    console.log('Done');
+    state = true;
     
 }
 
