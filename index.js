@@ -19,7 +19,6 @@ function showMenu() {
     logo.style.visibility = 'hidden';
     console.log('Done');
     state = true;
-    
 }
 
 function removeMenu() {
