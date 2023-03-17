@@ -1,7 +1,7 @@
 const form = document.querySelector('#form');
 const email = document.querySelector('#email-input');
 const errorMsg = document.querySelector('.error-message');
-var state = false
+let state = false;
 form.onsubmit = () => {
   if (email.value === email.value.toLowerCase()) {
     state = true;
