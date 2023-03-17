@@ -47,7 +47,12 @@ const details = {
 };
 
 function popup() {
-    
+    const container = document.createElement('section');
+    container.setAttribute('class','popup-container');
+    const popupCard = document.createElement('div');
+    popupCard.setAttribute('class','popup-card');
+    const closeButton = document.createElement('div');
+    closeButton.setAttribute('class','close-button');
 }
 
 // Dynamically create the work section
