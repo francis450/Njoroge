@@ -24,8 +24,9 @@
                 </nav>
                 <div id="toolbar-menu-button">
                     <div id="toolbar-menu-icon">
-                        <div id="toolbar-menu-union-icon">
-                        </div>
+                        <div id="toolbar-menu-union-icon-before"></div>
+                        <div id="toolbar-menu-union-icon"></div>
+                        <div id="toolbar-menu-union-icon-after"></div>
                     </div>
                 </div>
         
@@ -82,7 +83,7 @@
                             </ul>
 
                             <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
+                                <button type="button" class="card-button"><p class="card-button-text">See Project</p></button>
                             </div>
                         </section>
                     </div>
@@ -100,7 +101,7 @@
                             </ul>
 
                             <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
+                                <button type="button" class="card-button"><p class="card-button-text">See Project</p></button>
                             </div>
                         </section>
                     </div>
@@ -118,7 +119,7 @@
                             </ul>
 
                             <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
+                                <button type="button" class="card-button"><p class="card-button-text">See Project</p></button>
                             </div>
                         </section>
                     </div>
@@ -138,7 +139,7 @@
                             </ul>
 
                             <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
+                                <button type="button" class="card-button"><p class="card-button-text">See Project</p></button>
                             </div>
                         </section>
                     </div>
@@ -156,7 +157,7 @@
                             </ul>
 
                             <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
+                                <button type="button" class="card-button"><p class="card-button-text">See Project</p></button>
                             </div>
                         </section>
                     </div>
@@ -174,7 +175,7 @@
                             </ul>
 
                             <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
+                                <button type="button" class="card-button"><p class="card-button-text">See Project</p></button>
                             </div>
                         </section>
                     </div>
@@ -193,7 +194,7 @@
                     If you like what you see and have 
                     a project you need coded, 
                     don't hestiate to contact me.</p>
-                <a href="resume.pdf" download="My Resume"><button class="about-resume-button green-button"><p id="about-resume-button-text">Get My Resume</p></button></a>
+                <a href="resume.pdf" download="My Resume"><button type="button" class="about-resume-button green-button"><p id="about-resume-button-text">Get My Resume</p></button></a>
                 <img src="img/scattered-backgrounds/about-me-mobile-background1.svg" alt="About me image" class="about-me-mobile1">
                 <img src="img/scattered-backgrounds/about-me-mobile-background2.svg" alt="About section background image" class="about-me-mobile2">
                 <img src="img/scattered-backgrounds/bottom-most-mobile-background.svg" alt="About me image" class="bottom-most-mobile-background">
@@ -277,8 +278,9 @@
             <!-- form -->
             <form action="https://formspree.io/f/xyyakzgb" method="POST" id="form-content">
                 <input type="text" name="FullName" max-length="30" placeholder="Full Name" class="form-row" id="ignoreindesktop" required>
-                <input type="email" name="email" max-length="30" placeholder="Email Address" id="" class="form-row" required>
+                <input type="email" name="email" max-length="30" placeholder="Email Address" id="email-input" class="form-row" required>
                 <textarea name="comment" required id="" cols="30" rows="10" max-length="500" placeholder="Typing..." class="form-row textareas"></textarea>
+                <p class="error-message">Email should be in lowecase!!</p>
                 <div class="button-div">
                     <button type="submit" class="form-submit-button green-button"><p class="form-submit-button-text">Get in touch </p></button>
                 </div>
@@ -307,5 +309,6 @@
             </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
