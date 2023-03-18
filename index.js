@@ -101,7 +101,7 @@ function popit(cardN) {
     overlay.forEach((element) => {
       element.style.opacity = 1;
     });
-});
+  });
 }
 
 // Dynamically create the work section
