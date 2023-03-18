@@ -141,7 +141,7 @@ function createCard(cardN) {
   tag2.textContent = tech2;
   tag3.textContent = tech3;
   tag4.textContent = tech4;
-  card.style.backgroundImage = 'url(' + cardN.image + ')';
+  card.style.backgroundImage = `url(${cardN.image})`;
   cardButtonText.textContent = 'See Project';
 
   card.appendChild(cardContent);
