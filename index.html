@@ -10,7 +10,7 @@
 <body>
     <main id="main-container">
         <!-- Top navigation section -->
-        <div id="nav-headline-background">
+        <div id="nav-headline-background" class="overlay">
             <header id="top-navigation">
                 <a id="logo">
                     <p id="logo-text">Welcome</p>
@@ -24,8 +24,9 @@
                 </nav>
                 <div id="toolbar-menu-button">
                     <div id="toolbar-menu-icon">
-                        <div id="toolbar-menu-union-icon">
-                        </div>
+                        <div id="toolbar-menu-union-icon-before"></div>
+                        <div id="toolbar-menu-union-icon"></div>
+                        <div id="toolbar-menu-union-icon-after"></div>
                     </div>
                 </div>
         
@@ -61,129 +62,16 @@
         </div>
 
         <!-- Works Section -->
-        <section id="works">
-            <div id="works-title">
-                <h2 class="works-title-text">My Recent Work</h2>
-                <div class="indicator"></div>
-            </div>
+        <section id="works" class="overlay">
+            
+        </section>
 
-            <div id="work-cards">
-                <section class="work-cards-row">
-                    <!-- card1 -->
-                    <div class="card">
-                        <section class="card-content">
-                            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
-                            
-                            <ul class="card-tags">
-                                <li class="card-tag ruby"><p class="card-tag-text">Ruby on rails</p></li>
-                                <li class="card-tag css"><p class="card-tag-text">css</p></li>
-                                <li class="card-tag Javascript"><p class="card-tag-text">Javascript</p></li>
-                                <li class="card-tag html"><p class="card-tag-text">html</p></li>
-                            </ul>
+        <section id="popup-container">
 
-                            <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
-                            </div>
-                        </section>
-                    </div>
-
-                    <!-- card2 -->
-                    <div class="card">
-                        <section class="card-content">
-                            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
-                            
-                            <ul class="card-tags">
-                                <li class="card-tag ruby"><p class="card-tag-text">Ruby on rails</p></li>
-                                <li class="card-tag css"><p class="card-tag-text">css</p></li>
-                                <li class="card-tag Javascript"><p class="card-tag-text">Javascript</p></li>
-                                <li class="card-tag html"><p class="card-tag-text">html</p></li>
-                            </ul>
-
-                            <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
-                            </div>
-                        </section>
-                    </div>
-
-                    <!-- card3 -->
-                    <div class="card">
-                        <section class="card-content">
-                            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
-                            
-                            <ul class="card-tags">
-                                <li class="card-tag ruby"><p class="card-tag-text">Ruby on rails</p></li>
-                                <li class="card-tag css"><p class="card-tag-text">css</p></li>
-                                <li class="card-tag Javascript"><p class="card-tag-text">Javascript</p></li>
-                                <li class="card-tag html"><p class="card-tag-text">html</p></li>
-                            </ul>
-
-                            <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
-                            </div>
-                        </section>
-                    </div>
-                </section>
-
-                <section class="work-cards-row">
-                    <!-- card1 -->
-                    <div class="card">
-                        <section class="card-content">
-                            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
-                            
-                            <ul class="card-tags">
-                                <li class="card-tag ruby"><p class="card-tag-text">Ruby on rails</p></li>
-                                <li class="card-tag css"><p class="card-tag-text">css</p></li>
-                                <li class="card-tag Javascript"><p class="card-tag-text">Javascript</p></li>
-                                <li class="card-tag html"><p class="card-tag-text">html</p></li>
-                            </ul>
-
-                            <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
-                            </div>
-                        </section>
-                    </div>
-
-                    <!-- card2 -->
-                    <div class="card">
-                        <section class="card-content">
-                            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
-                            
-                            <ul class="card-tags">
-                                <li class="card-tag ruby"><p class="card-tag-text">Ruby on rails</p></li>
-                                <li class="card-tag css"><p class="card-tag-text">css</p></li>
-                                <li class="card-tag Javascript"><p class="card-tag-text">Javascript</p></li>
-                                <li class="card-tag html"><p class="card-tag-text">html</p></li>
-                            </ul>
-
-                            <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
-                            </div>
-                        </section>
-                    </div>
-
-                    <!-- card3 -->
-                    <div class="card">
-                        <section class="card-content">
-                            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
-                            
-                            <ul class="card-tags">
-                                <li class="card-tag ruby"><p class="card-tag-text">Ruby on rails</p></li>
-                                <li class="card-tag css"><p class="card-tag-text">css</p></li>
-                                <li class="card-tag Javascript"><p class="card-tag-text">Javascript</p></li>
-                                <li class="card-tag html"><p class="card-tag-text">html</p></li>
-                            </ul>
-
-                            <div class="card-title-button">
-                                <button class="card-button"><p class="card-button-text">See Project</p></button>
-                            </div>
-                        </section>
-                    </div>
-                </section>
-            </div>
         </section>
         
         <!-- About me Section -->
-        <section id="about">
+        <section id="about" class="overlay">
             <div id="about-heading">    
                 <h2 id="about-title">About me</h2>
 
@@ -269,7 +157,7 @@
         </section>
         
         <!-- Form Section -->
-        <section id="form">
+        <section id="form" class="overlay">
             <!-- text -->
             <div id="form-text">
                 <p id="form-text-item">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -289,7 +177,7 @@
         </section>
         
         <!-- bottom-navigation -->
-        <section id="bottom-navigation">
+        <section id="bottom-navigation" class="overlay">
             <!-- line -->
             <div class="bottom-horizontal-line"></div>
             <!-- social media -->
@@ -307,5 +195,6 @@
             </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
