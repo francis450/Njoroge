@@ -51,64 +51,64 @@ const details = {
 
 // Dynamically create the work section
 function createCard(cardN) {
-	const card = document.createElement('div');
-	const cardContent = document.createElement('section');
-	const cardTitle = document.createElement('h3');
-	cardTitle.textContent = cardN.name;
-	const cardTags = document.createElement('ul');
-	const tag1 = document.createElement('li');
-	const tag2 = document.createElement('li');
-	const tag3 = document.createElement('li');
-	const tag4 = document.createElement('li');
-	const cardTagText1 = document.createElement('p');
-	const cardTagText2 = document.createElement('p');
-	const cardTagText3 = document.createElement('p');
-	const cardTagText4 = document.createElement('p');
-	const cardTitleButton = document.createElement('div');
-	const cardButton = document.createElement('button');
-	cardButton.addEventListener('click', () => {
-			popit(cardN);
-	});
-	const cardButtonText = document.createElement('p');
+    const card = document.createElement('div');
+    const cardContent = document.createElement('section');
+    const cardTitle = document.createElement('h3');
+    cardTitle.textContent = cardN.name;
+    const cardTags = document.createElement('ul');
+    const tag1 = document.createElement('li');
+    const tag2 = document.createElement('li');
+    const tag3 = document.createElement('li');
+    const tag4 = document.createElement('li');
+    const cardTagText1 = document.createElement('p');
+    const cardTagText2 = document.createElement('p');
+    const cardTagText3 = document.createElement('p');
+    const cardTagText4 = document.createElement('p');
+    const cardTitleButton = document.createElement('div');
+    const cardButton = document.createElement('button');
+    cardButton.addEventListener('click', () => {
+            popit(cardN);
+    });
+    const cardButtonText = document.createElement('p');
 
-	card.setAttribute('class', 'card');
-	cardContent.setAttribute('class','card-content');
-	cardTitle.setAttribute('class','card-title');
-	cardTags.setAttribute('class','card-tags');
-	tag1.setAttribute('class','card-tag ruby');
-	tag2.setAttribute('class','card-tag css');
-	tag3.setAttribute('class','card-tag javascript');
-	tag4.setAttribute('class','card-tag html');
-	cardTagText1.setAttribute('class','card-tag-text');
-	cardTagText2.setAttribute('class','card-tag-text');
-	cardTagText3.setAttribute('class','card-tag-text');
-	cardTagText4.setAttribute('class','card-tag-text');
-	cardTitleButton.setAttribute('class','card-title-button');
-	cardButton.setAttribute('class','card-button');
-	cardButtonText.setAttribute('class','card-button-text');
+    card.setAttribute('class', 'card');
+    cardContent.setAttribute('class','card-content');
+    cardTitle.setAttribute('class','card-title');
+    cardTags.setAttribute('class','card-tags');
+    tag1.setAttribute('class','card-tag ruby');
+    tag2.setAttribute('class','card-tag css');
+    tag3.setAttribute('class','card-tag javascript');
+    tag4.setAttribute('class','card-tag html');
+    cardTagText1.setAttribute('class','card-tag-text');
+    cardTagText2.setAttribute('class','card-tag-text');
+    cardTagText3.setAttribute('class','card-tag-text');
+    cardTagText4.setAttribute('class','card-tag-text');
+    cardTitleButton.setAttribute('class','card-title-button');
+    cardButton.setAttribute('class','card-button');
+    cardButtonText.setAttribute('class','card-button-text');
 
-	tag1.textContent = cardN.technology[0];
-	tag2.textContent = cardN.technology[1];
-	tag3.textContent = cardN.technology[2];
-	tag4.textContent = cardN.technology[3];
-	card.style.backgroundImage = 'url('+cardN.image+')';
-	cardButtonText.textContent = 'See Project'
+    tag1.textContent = cardN.technology[0];
+    tag2.textContent = cardN.technology[1];
+    tag3.textContent = cardN.technology[2];
+    tag4.textContent = cardN.technology[3];
+    card.style.backgroundImage = 'url('+cardN.image+')';
+    cardButtonText.textContent = 'See Project'
 
-	card.appendChild(cardContent);
-	cardContent.appendChild(cardTitle);
-	cardContent.append(cardTags);
-	cardContent.append(cardTitleButton);
-	cardTitleButton.appendChild(cardButton);
-	cardButton.appendChild(cardButtonText);
-	cardTags.appendChild(tag1);
-	cardTags.append(tag2);
-	cardTags.append(tag3);
-	cardTags.append(tag4);
-	tag1.appendChild(cardTagText1);
-	tag2.appendChild(cardTagText2);
-	tag3.appendChild(cardTagText3);
-	tag4.appendChild(cardTagText4);
-	return card;
+    card.appendChild(cardContent);
+    cardContent.appendChild(cardTitle);
+    cardContent.append(cardTags);
+    cardContent.append(cardTitleButton);
+    cardTitleButton.appendChild(cardButton);
+    cardButton.appendChild(cardButtonText);
+    cardTags.appendChild(tag1);
+    cardTags.append(tag2);
+    cardTags.append(tag3);
+    cardTags.append(tag4);
+    tag1.appendChild(cardTagText1);
+    tag2.appendChild(cardTagText2);
+    tag3.appendChild(cardTagText3);
+    tag4.appendChild(cardTagText4);
+    return card;
 }
 
 function createWorkCardsRow(one, two, three) {
@@ -132,22 +132,22 @@ function createWorkCardsContainer() {
 }
 
 function createWorksTitleContainer() {
-	// Create all the Elements
-	const worksTitle = document.createElement('div');
-	const worksTitleText = document.createElement('h2');
-	worksTitleText.textContent = 'My Recent Works'
-	const indicator = document.createElement('div');
+    // Create all the Elements
+    const worksTitle = document.createElement('div');
+    const worksTitleText = document.createElement('h2');
+    worksTitleText.textContent = 'My Recent Works'
+    const indicator = document.createElement('div');
 
-	// Set attributes to all elements
-	worksTitle.setAttribute('id', 'works-title');
-	worksTitleText.setAttribute('class', 'works-title-text');
-	indicator.setAttribute('class', 'indicator');
+    // Set attributes to all elements
+    worksTitle.setAttribute('id', 'works-title');
+    worksTitleText.setAttribute('class', 'works-title-text');
+    indicator.setAttribute('class', 'indicator');
 
-	//Append elements to parents
-	worksTitle.appendChild(worksTitleText);
-	worksTitle.append(indicator);
+    //Append elements to parents
+    worksTitle.appendChild(worksTitleText);
+    worksTitle.append(indicator);
 
-	return worksTitle;
+    return worksTitle;
 }
 
 window.addEventListener('load', () => {
@@ -156,7 +156,7 @@ window.addEventListener('load', () => {
 });
 
 function popit(cardN) {
-    let modalBody = `
+  let modalBody = `
     <div class='popup-card'>
         <div class='close-button-container'>
             <button src='img/Disabled.svg' id='close-button' alt=''>&times</button>
@@ -198,10 +198,10 @@ function popit(cardN) {
         </div>
     </div>
     `;
-    modal.innerHTML = modalBody;
-    modal.style.display = 'flex';
-    const close = document.getElementById('close-button');
-    close.addEventListener('click', () => {
-        modal.style.display = 'none';
-    });
+  modal.innerHTML = modalBody;
+  modal.style.display = 'flex';
+  const close = document.getElementById('close-button');
+  close.addEventListener('click', () => {
+      modal.style.display = 'none';
+  });
 }

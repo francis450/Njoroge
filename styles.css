@@ -845,7 +845,7 @@
     display: none;
     height: auto;
     width: 100vw;
-    background: #c1c7D0;
+    background: #c1c7d0;
     align-items: center;
     justify-content: center;
     mix-blend-mode: multiply;
@@ -898,7 +898,7 @@
     padding: 12px;
     gap: 10px;
     height: 48px;
-    border-radius: 8px;    
+    border-radius: 8px;
   }
 
   .see-button-text {
@@ -930,7 +930,7 @@
   }
 
   .description {
-    font-family: 'Inter' serif;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -939,7 +939,7 @@
   }
 
   .popup-title-text {
-    font-family: 'Inter' serif;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -947,6 +947,7 @@
     color: #172b4d;
   }
 }
+
 @media screen and (min-width: 768px) {
   .popup-buttons {
     display: flex;
